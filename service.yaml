@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-php-app
+    env: docker
+    dockerfilePath: Dockerfile
+    region: oregon  # Choose your preferred region
+    plan: free
